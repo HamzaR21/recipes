@@ -6,16 +6,14 @@ import { Observable } from 'rxjs';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   readonly ROOT_URL = "https://jsonplaceholder.typicode.com/"
   title = 'recipes';
-
   userID: number;
   posts: Observable<any>;
 
-  constructor(private http: HttpClient){
-
-  }
+  constructor(private http: HttpClient){}
 
   getData(){
     let headers = new HttpHeaders().set('AUTH','token');

@@ -5,11 +5,13 @@ import { map } from 'rxjs/operators';
 
 import { Constants } from './config/constants';
 import { Recipe } from './classes/recipe';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 
 export class AppComponent {
   searchWords:String = "apples flour sugar";
@@ -23,9 +25,7 @@ export class AppComponent {
   constructor(private http: HttpClient){}
 
   ngOnInit() {
-    // this.getRandomRecipe();
-
-    
+    // this.getRandomRecipe();    
   }
 
   // Get Recipe Details:

@@ -10,6 +10,7 @@ import { RECEIPIESComponent } from './receipies/receipies.component';
 import { CONTACTComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 
@@ -21,10 +22,11 @@ import { SearchResultsComponent } from './search-results/search-results.componen
     RECEIPIESComponent,
     CONTACTComponent,
     HomeComponent,
-    SearchResultsComponent
+    SearchResultsComponent,
+    
   ],
   imports: [
-    BrowserModule, FormsModule, HttpClientModule
+    BrowserModule, FormsModule, HttpClientModule, AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

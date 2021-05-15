@@ -4,10 +4,24 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { RECEIPIESComponent } from './receipies/receipies.component';
+import { CONTACTComponent } from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
+import { SearchResultsComponent } from './search-results/search-results.component';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    FooterComponent,
+    RECEIPIESComponent,
+    CONTACTComponent,
+    HomeComponent,
+    SearchResultsComponent
   ],
   imports: [
     BrowserModule, FormsModule, HttpClientModule

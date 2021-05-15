@@ -1,0 +1,38 @@
+
+.carousel-caption {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    }
+    .carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+    }
+    .carousel-caption h5 {
+        font-size: 200%;
+        font-weight: 500;
+        text-shadow: 1px 1px  10px #000;
+        padding-bottom: 1rem;
+    
+    }
+    .btn-primary {
+        background-color: #6648b1;
+        border:  1px solid #6648b1;
+    }
+    .btn-primary :hover {
+         background-color: #563d7c;
+         border: 1px solid #563d7c ;
+    }
+    .Menu li>a{
+        color: white;
+        margin-left: 200px;
+    }
+    
+    html, body {
+        height: 100%;
+        width: 100%;
+       font-family: 'Poppins' sans-serif;
+       color: #222;
+   
+   }

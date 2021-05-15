@@ -1,20 +1,9 @@
-<html lang="en">
+<app-navbar></app-navbar>
+<!--<app-home></app-home>-->
+<!--<app-receipies></app-receipies>-->
+<app-search-results></app-search-results>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-</head>
 
-<body>
-  <h1>Testing API calls</h1>
-  <input [(ngModel)]="userID" #ctrl="ngModel" required> <br><br>
-  <button (click)="getData()">Show Posts for user : {{ userID }}</button>
-  <hr>
-  <div *ngFor="let post of posts | async">
-    {{ post | json }}
-  </div>
-</body>
+<app-footer></app-footer>
 
-</html>
+

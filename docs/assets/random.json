@@ -1,0 +1,217 @@
+{
+   "recipes": [
+      {
+         "vegetarian": false,
+         "vegan": false,
+         "glutenFree": true,
+         "dairyFree": false,
+         "veryHealthy": true,
+         "cheap": false,
+         "veryPopular": false,
+         "sustainable": false,
+         "weightWatcherSmartPoints": 21,
+         "gaps": "no",
+         "lowFodmap": false,
+         "aggregateLikes": 85,
+         "spoonacularScore": 98,
+         "healthScore": 93,
+         "creditsText": "Afrolems",
+         "license": "CC BY 4.0",
+         "sourceName": "Afrolems",
+         "pricePerServing": 566.5,
+         "extendedIngredients": [],
+         "id": 716356,
+         "title": "Yoghurt Chicken and Garlic Potatoes",
+         "readyInMinutes": 45,
+         "servings": 1,
+         "sourceUrl": "http://www.afrolems.com/2014/03/22/yoghurt-chicken-and-garlic-potatoes/",
+         "image": "https://spoonacular.com/recipeImages/716356-556x370.jpg",
+         "imageType": "jpg",
+         "summary": "Yoghurt Chicken and Garlic Potatoes might be just the main course you are searching for. For <b>$3.25 per serving</b>, this recipe <b>covers 47%</b> of your daily requirements of vitamins and minerals. This recipe makes 1 servings with <b>586 calories</b>, <b>61g of protein</b>, and <b>12g of fat</b> each. A few people made this recipe, and 85 would say it hit the spot. If you have water, seasoning cubes, yoghurt, and a few other ingredients on hand, you can make it. To use up the ice cubes you could follow this main course with the <a href=\"https://spoonacular.com/recipes/nectarine-blackberry-and-pecan-sundaes-50465\">Nectarine, Blackberry, and Pecan Sundaes</a> as a dessert. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is a good option if you're following a <b>gluten free</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 99%</b>. This score is spectacular. Try <a href=\"https://spoonacular.com/recipes/grilled-chicken-guacamole-taco-with-garlic-yoghurt-tahini-sauce-623194\">Grilled Chicken & Guacamole Taco with Garlic-Yoghurt-Tahini Sauce</a>, <a href=\"https://spoonacular.com/recipes/beef-mince-and-macaroni-with-a-yoghurt-garlic-sauce-144499\">Beef Mince and Macaroni with a Yoghurt-Garlic-Sauce</a>, and <a href=\"https://spoonacular.com/recipes/chicken-with-yoghurt-124458\">Chicken with Yoghurt</a> for similar recipes.",
+         "cuisines": [],
+         "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+         ],
+         "diets": [
+            "gluten free",
+            "primal"
+         ],
+         "occasions": [],
+         "instructions": "Blend the yoghurt, curry, seasoning cubes, ginger powder, chilli powder and water together.Pour over chicken and leave to marinate for a few hours. (2~3 hours should be fine)Heat up the oven to 380F, sprInkle the marinated chicken with the sliced onions and place the chicken to cook for 35~40 minutes.In a pot, wash your potatoes and place in the pot to boil.Crush your garlic cloves and mix with the butter.Once the potatoes are soft, drain the water out, rub the garlic butter on the potatoes and sprinkle your basil leaves on it, I boiled my potatoes with its skin because I wanted the extra fibre content.Serve with the chicken when its ready. ",
+         "analyzedInstructions": [
+            {
+               "name": "",
+               "steps": [
+                  {
+                     "number": 1,
+                     "step": "Blend the yoghurt, curry, seasoning cubes, ginger powder, chilli powder and water together.",
+                     "ingredients": [
+                        {
+                           "id": 0,
+                           "name": "seasoning cube",
+                           "localizedName": "seasoning cube",
+                           "image": "stock-cube.jpg"
+                        },
+                        {
+                           "id": 2009,
+                           "name": "chili powder",
+                           "localizedName": "chili powder",
+                           "image": "chili-powder.jpg"
+                        },
+                        {
+                           "id": 2021,
+                           "name": "ginger powder",
+                           "localizedName": "ginger powder",
+                           "image": "ginger.png"
+                        },
+                        {
+                           "id": 1116,
+                           "name": "yogurt",
+                           "localizedName": "yogurt",
+                           "image": "plain-yogurt.jpg"
+                        },
+                        {
+                           "id": 2015,
+                           "name": "curry powder",
+                           "localizedName": "curry powder",
+                           "image": "curry-powder.jpg"
+                        },
+                        {
+                           "id": 14412,
+                           "name": "water",
+                           "localizedName": "water",
+                           "image": "water.png"
+                        }
+                     ],
+                     "equipment": []
+                  },
+                  {
+                     "number": 2,
+                     "step": "Pour over chicken and leave to marinate for a few hours. (2~3 hours should be fine)",
+                     "ingredients": [
+                        {
+                           "id": 5006,
+                           "name": "whole chicken",
+                           "localizedName": "whole chicken",
+                           "image": "whole-chicken.jpg"
+                        }
+                     ],
+                     "equipment": [],
+                     "length": {
+                        "number": 180,
+                        "unit": "minutes"
+                     }
+                  },
+                  {
+                     "number": 3,
+                     "step": "Heat up the oven to 380F, spr",
+                     "ingredients": [],
+                     "equipment": [
+                        {
+                           "id": 404784,
+                           "name": "oven",
+                           "localizedName": "oven",
+                           "image": "oven.jpg",
+                           "temperature": {
+                              "number": 380,
+                              "unit": "Fahrenheit"
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "number": 4,
+                     "step": "Inkle the marinated chicken with the sliced onions and place the chicken to cook for 35~40 minutes.In a pot, wash your potatoes and place in the pot to boil.Crush your garlic cloves and mix with the butter.Once the potatoes are soft, drain the water out, rub the garlic butter on the potatoes and sprinkle your basil leaves on it, I boiled my potatoes with its skin because I wanted the extra fibre content.",
+                     "ingredients": [
+                        {
+                           "id": 2044,
+                           "name": "fresh basil",
+                           "localizedName": "fresh basil",
+                           "image": "fresh-basil.jpg"
+                        },
+                        {
+                           "id": 11352,
+                           "name": "potato",
+                           "localizedName": "potato",
+                           "image": "potatoes-yukon-gold.png"
+                        },
+                        {
+                           "id": 5006,
+                           "name": "whole chicken",
+                           "localizedName": "whole chicken",
+                           "image": "whole-chicken.jpg"
+                        },
+                        {
+                           "id": 1001,
+                           "name": "butter",
+                           "localizedName": "butter",
+                           "image": "butter-sliced.jpg"
+                        },
+                        {
+                           "id": 1002011,
+                           "name": "clove",
+                           "localizedName": "clove",
+                           "image": "cloves.jpg"
+                        },
+                        {
+                           "id": 11215,
+                           "name": "garlic",
+                           "localizedName": "garlic",
+                           "image": "garlic.png"
+                        },
+                        {
+                           "id": 11282,
+                           "name": "onion",
+                           "localizedName": "onion",
+                           "image": "brown-onion.png"
+                        },
+                        {
+                           "id": 14412,
+                           "name": "water",
+                           "localizedName": "water",
+                           "image": "water.png"
+                        },
+                        {
+                           "id": 1012034,
+                           "name": "dry seasoning rub",
+                           "localizedName": "dry seasoning rub",
+                           "image": "seasoning.png"
+                        }
+                     ],
+                     "equipment": [
+                        {
+                           "id": 404752,
+                           "name": "pot",
+                           "localizedName": "pot",
+                           "image": "stock-pot.jpg"
+                        }
+                     ],
+                     "length": {
+                        "number": 40,
+                        "unit": "minutes"
+                     }
+                  },
+                  {
+                     "number": 5,
+                     "step": "Serve with the chicken when its ready. ",
+                     "ingredients": [
+                        {
+                           "id": 5006,
+                           "name": "whole chicken",
+                           "localizedName": "whole chicken",
+                           "image": "whole-chicken.jpg"
+                        }
+                     ],
+                     "equipment": []
+                  }
+               ]
+            }
+         ],
+         "originalId": null,
+         "spoonacularSourceUrl": "https://spoonacular.com/yoghurt-chicken-and-garlic-potatoes-716356"
+      }
+   ]
+}

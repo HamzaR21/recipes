@@ -43,7 +43,6 @@ export class HomeComponent implements OnInit {
   // Search
   search(){    
     this.router.navigate(['/results'], {state: {searchWords: this.searchWords }});
-
   }
 
   // Similar Recipes

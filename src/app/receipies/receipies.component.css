@@ -1,44 +1,81 @@
-.container{
-    padding: 48px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.container {
+  padding: 48px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.container .group{
-    padding: 8px 48px;
-    margin: 8px;
+.container .group {
+  padding: 8px 48px;
+  margin: 8px;
 }
-input[type="checkbox"]  {
-    display: none;
+input[type="checkbox"] {
+  display: none;
 }
 label {
-    position: relative;
+  position: relative;
 }
-label::before{
-    content:"" ;
-    background: "";
-    background-position: center;
-    background-size: contain;
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    left: -44px;
-    top: -8px;
-    transform:  scale(0) rotateZ(180deg);
-    transition: all 0.4s cubic-bezier(0.54,0.01,1.49);
+label::before {
+  content: "";
+  background: "";
+  background-position: center;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: -44px;
+  top: -8px;
+  transform: scale(0) rotateZ(180deg);
+  transition: all 0.4s cubic-bezier(0.54, 0.01, 1.49);
 }
-input[type="checkbox"]:checked + label::before{
-    transform: scale(1) rotateZ(0deg);
+input[type="checkbox"]:checked + label::before {
+  transform: scale(1) rotateZ(0deg);
 }
-label::after{
-    content:"";
-    border:2px solid #27ae68;
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    left: -42px;
-    top: -6px;
-    border-radius: 50%;
+label::after {
+  content: "";
+  border: 2px solid #27ae68;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -42px;
+  top: -6px;
+  border-radius: 50%;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  transform: translateX(683px);
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: rgb(207, 33, 33) transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

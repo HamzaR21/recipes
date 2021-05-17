@@ -14,7 +14,7 @@ export class RECEIPIESComponent implements OnInit {
   id: any;
   recipeInformation: any;
   recipeInstructions: any;
-
+  spin:Boolean = true;
 
   constructor(private http: HttpClient) { }
 
@@ -41,7 +41,7 @@ export class RECEIPIESComponent implements OnInit {
     
     let recipeID = "/" + id + "/analyzedInstructions";
     let informationsUrl = Constants.API_ROOT_URL + Constants.API_RECIPE_ENDPOINT + recipeID;
-    this.http.get(informationsUrl,{params}).subscribe(recipes => this.recipeInstructions = recipes);
+    this.http.get(informationsUrl,{params}).subscribe(recipes => {this.recipeInstructions = recipes, this.spin = false});
   }
   
 
